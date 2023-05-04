@@ -168,6 +168,9 @@ button.get{
     padding-top: 40px;
 }
 
+.card-section{
+    padding-top: 60px;
+}
 .card-text{
     display: flex;
     flex-direction: column;
@@ -176,13 +179,19 @@ button.get{
 }
 .card-text .p-card-1{
     width: 260px;
+    /* padding-right: 60px; */
 }
-.card-section #card-1{
+.card-first{
+    
+}
+.card-text{
     width: 381px;
     height: 554px;
-    background: url(/assets/imgs/Rectangle\ 42.svg);
+    background: url("../imgs/Rectangle\ 42.svg");
+    margin: 0;
+    margin-right: 60px;
 }
-.card-section #card-1 h1{
+.card-text h1{
     color: white;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -192,7 +201,7 @@ button.get{
     text-align: center;
 }
 
-.card-section #card-1 p{
+.card-text p{
     color: white;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -200,4 +209,58 @@ button.get{
     font-size: 16px;
     line-height: 24px;
     text-align: center;
+}
+.card-text img{
+    width: 300px;
+    height: 200px;
+}
+.card-second-four{
+    display: flex;
+}
+.card-second-four h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #0E538C;
+    text-align: center;
+}
+.card-second-four p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.47);
+    width: 274px;
+}
+.card-second-four .card{
+    width: 309px;
+    height: 256px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 30px 10px #F2F2F2;
+    border-radius: 11px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card-gr{
+    margin: 0 auto;
+    padding-right: 50px;
+}
+.card-second-four{
+    /* width: 590px; */
+    margin: 0 auto;
+    /* gap: 40px; */
+    height: 550px;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+}
+.card-section{
+    width: 1500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
