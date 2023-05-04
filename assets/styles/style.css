@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
     box-sizing: border-box;
     margin: 0;
@@ -13,7 +13,7 @@ body{
     margin: 0;
 }
 
-.wrapper {
+.wrapper{
     min-height: 100vh;
     background: linear-gradient(96.68deg, #DEEEF7 2.88%, rgba(222, 238, 247, 0) 124.33%);
 }
@@ -25,7 +25,8 @@ body{
 
 .navbar .container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding-top: 3vh;
 
 }
 
@@ -33,13 +34,84 @@ body{
     display: flex;
     justify-content: space-between;
     list-style-type: none;
+    align-items: center;
 }
 
-.navbar-menu li{
-    
+.navbar-menu a{
+    font-size: 20px;
     font-weight: 700;
     color: #243A73;
     text-decoration: none;
+    /* justify-content: space-around; */
     font-family: 'Poppins', sans-serif;
+    padding: 40px;
+    transition: 0.4s;
 }
 
+.navbar-menu a:hover{
+    color: #5A38FD;
+    transition: 0.2s;
+}
+
+.navbar-menu li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconss{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .icons{
+    width: 25px;
+    height: 25px;
+    margin: 15px;
+
+}
+
+.navbar-menu .get{
+    background-color: #243A73;
+    color: white;
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-weight: 400;
+    transition: 0.4s;
+}
+
+.navbar-menu .get:hover{
+    background-color: #5A38FD;
+    color: #10005e;
+    transition: 0.2s;
+}
+
+.bigtext{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+}
+
+.bigtext .title{
+    font-size: 70px;
+    font-weight: 500;
+    color: #243A73;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+}
+.bigtext .title .bold{
+    font-weight: 700;
+}
+.bigtext .text{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+.bigtext .opis{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    padding-top: 25px;
+    font-size: 20px;
+}
