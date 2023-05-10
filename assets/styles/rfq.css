@@ -11,6 +11,10 @@ body{
 .container{
     width: 1731px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .section-main{
     background-color: rgba(233, 213, 202, 0.4);
@@ -300,23 +304,23 @@ button.get{
 }
 .cards-new{
     width: 1350px;
-    height: 800px;
+    /* height: 800px; */
     padding-top: 70px;
     padding-bottom: 80px;
     margin: 0 auto;
-    display: grid;
-    grid-template: repeat(3, 1fr) / repeat(2, 1fr);
-    /* justify-content: space-around; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .cards-new .card-n{
-    width: 615px;
-    height: 199px;
+    width: 46%;
+    height: 210px;
     background: #FFFFFF;
     box-shadow: 0px 10px 30px rgba(38, 57, 237, 0.16);
     border-radius: 14px;
     display: flex;
     align-items: center;
-
+    margin: 20px;
 }
 .card-n h1{
     font-family: 'Roboto', sans-serif;
@@ -422,7 +426,12 @@ button.get{
     color: #010F52;
 }
 .img-works{
-    padding-top: 30px;
+    padding-top: 110px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 300px 20px;
+
 }
 .bloks__works p{
     font-family: 'Poppins', sans-serif;
@@ -433,11 +442,48 @@ button.get{
     color: #4E4E4E;
 }
 .bloks__works{
+    width: 100%;
     display: flex;
+    position: relative;
+}
+.bloks__works:nth-child(1){
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+.bloks__works:nth-child(2){
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+.bloks__works:nth-child(3){
+    grid-column-start: 1;
+    grid-row-start: 3;
+}
+.bloks__works:nth-child(4){
+    grid-column-start: 2;
+    grid-row-start: 4;
 }
 .bloks__works img{
+    /* height: 285px; */
     padding-right: 70px;
 }
+.pol__1{
+    width: 90%;
+    /* height: 100%; */
+    position: absolute;
+}
+#p-1{
+    right: 448px;
+    top: -250px;
+}
+#p-2{
+    top: -407px;
+    left: 130px;
+}
+#p-3{
+    top: -206.5px;
+    right: 570px;
+}
+
 .sust-2{
     height: 1488px;
     background: url(../imgs/rfq/Weather\ report.svg);
@@ -510,18 +556,21 @@ button.get{
     background: url("../imgs/rfq/Background.svg"), #243A73;
     background-repeat: no-repeat;
     background-size: cover;
-}
-.text__footer{
-    width: 1700px;
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+.text__footer{
+    width: 1400px;
+    display: flex;
+    /* align-items: center; */
     justify-content: space-between;
 }
-.logo-text{
+/* .logo-text{
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-}
+} */
 .logo-text h1{
     font-family: 'Urbanist', sans-serif;
     font-style: normal;
@@ -530,6 +579,7 @@ button.get{
     line-height: 56px;
     text-transform: capitalize;
     color: #FFFFFF;
+    margin: 0;
 }
 .logo-text p{
     font-family: 'Urbanist', sans-serif;
@@ -565,4 +615,45 @@ button.get{
     /* align-items: center; */
     justify-content: center;
     flex-direction: column;
+}
+.social{
+    padding-top: 25px;
+}
+.social img{
+    padding-right: 15px;
+}
+
+form{
+    position: relative;
+    padding-top: 25px;
+}
+input{
+    padding: 17px 160px 24px 17px;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    background-color: #34343400;
+    outline:none;
+}
+input::placeholder{
+    font-family: 'Urbanist', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.but{
+    width: 60px;
+    height: 56px;
+    background: #64A5CA;
+    border-radius: 0px 10px 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0.8px;
+    bottom: 1.2px;
+}
+.but img{
+   
 }
