@@ -60,7 +60,14 @@ button.get{
     width: 152px;
     height: 49px;
     cursor: pointer;
+    transition: all ease 0.2s;
 }
+button.get:hover{
+    background: #101c3b;
+    transition: all ease 0.2s;
+    transform: scale(1.2);
+}
+
 .nav-head{
     display: flex;
     align-items: center;
@@ -80,6 +87,9 @@ button.get{
     align-items: center;
     justify-content: space-between;
     width: 300px;
+}
+.registration img{
+    cursor: pointer;
 }
 .registration img.search{
     padding-right: 32px;
@@ -155,12 +165,20 @@ button.get{
     width: 40px;
     border: 5px solid #D8D8D8;
     border-radius: 10ex;
+    transition: all ease 0.2s;
+    cursor: pointer;
 }
-.slaider-rfq #line-3{
+.slaider-rfq .line-1:hover{
     width: 60px;
     border: 5px solid #243A73;
     border-radius: 10ex;
+    transition: all ease 0.2s;
 }
+/* .slaider-rfq #line-3{
+    width: 60px;
+    border: 5px solid #243A73;
+    border-radius: 10ex;
+} */
 
 .section-servies{
     background: linear-gradient(180deg, #F5F5F5 0%, rgba(245, 245, 245, 0) 100%);
@@ -198,6 +216,12 @@ button.get{
     background: url("../imgs/rfq/Rectangle\ 42.svg");
     margin: 0;
     margin-right: 60px;
+    transition: all ease 0.2s;
+    cursor: pointer;
+}
+.card-text:hover{
+    transform: scale(1.2);
+    transition: all ease 0.2s;
 }
 .card-text h1{
     color: white;
@@ -253,6 +277,12 @@ button.get{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    transition: all ease 0.2s;
+    cursor: pointer;
+}
+.card-second-four .card:hover{
+    transform: scale(1.2);
+    transition: all ease 0.2s;
 }
 .card-gr{
     margin: 0 auto;
@@ -321,6 +351,11 @@ button.get{
     display: flex;
     align-items: center;
     margin: 20px;
+    transition: all ease 0.2s;
+    cursor: pointer;
+}
+.cards-new .card-n:hover{
+    transform: scale(1.1)
 }
 .card-n h1{
     font-family: 'Roboto', sans-serif;
@@ -383,6 +418,13 @@ button.get{
     box-shadow: 6px 6px 30px 6px rgba(0, 0, 0, 0.25);
     border-radius: 8px;
     border: none;
+    transition: all ease 0.2s;
+    cursor: pointer;
+}
+.text-smart button:hover{
+    background: #101c3b;
+    transition: all ease 0.2s;
+    transform: scale(0.9);
 }
 .text-img img{
     padding-right: 160px;
@@ -521,6 +563,11 @@ button.get{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    transition: all ease 0.2s;
+    cursor: pointer;
+}
+.card-sust:hover{
+    transform: scale(1.1)
 }
 .card-sust h2{
     font-family: 'Poppins', sans-serif;
@@ -653,7 +700,8 @@ input::placeholder{
     position: absolute;
     right: 0.8px;
     bottom: 1.2px;
+    transition: all ease 0.2s;
 }
-.but img{
-   
+.but:hover{
+    background: #5085af;
 }
