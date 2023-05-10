@@ -13,14 +13,14 @@ body{
     margin: 0;
 }
 
+.container{
+    width: 1500px;
+    margin: 0 auto;
+}
+
 .wrapper{
     min-height: 100vh;
     background: linear-gradient(96.68deg, #DEEEF7 2.88%, rgba(222, 238, 247, 0) 124.33%);
-}
-
-.navbar{
-    
-
 }
 
 .navbar .container{
@@ -89,29 +89,162 @@ body{
 .bigtext{
     display: flex;
     justify-content: space-between;
-    padding: 100px;
+    padding: 150px;
+}
+
+.bigtext .text{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
 }
 
 .bigtext .title{
-    font-size: 70px;
+    font-size: 100px;
     font-weight: 500;
     color: #243A73;
     font-family: 'Poppins', sans-serif;
     text-transform: capitalize;
+
 }
 .bigtext .title .bold{
     font-weight: 700;
 }
-.bigtext .text{
-    display: flex;
-    flex-direction: column;
-    width: 45%;
-}
+
 .bigtext .opis{
     display: flex;
     flex-direction: column;
     font-family: 'Poppins', sans-serif;
     color: black;
-    padding-top: 25px;
-    font-size: 20px;
+    padding-top: 20px;
+    font-size: 30px;
 }
+
+.bigtext .bigman{
+    width: 45%;
+}
+
+/* ANYTHING */
+
+.wrapper2{
+    min-height: 100vh;
+    background-color: white;
+}
+
+.wrapper2 .bigtext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    position: relative;
+}
+
+.wrapper2 .bigtext .title{
+    font-size: 60px;
+    font-weight: 600;
+    color: #243A73;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.wrapper2 .bigtext .opis{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    color: #243A73;
+    padding-top: 25px;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.wrapper2 .line{
+    position: absolute;
+    left: 1110px;
+    top: 206.5px;
+
+}
+
+.wrapper2 .pictures{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px 40px;
+}
+
+.pictures .picture{
+    padding: 10px;
+    color: white;
+    width: 85%;
+    height: 300px;
+    border-radius: 20px;
+    border: 1px solid #10005e27;
+    background-color: white;
+    transition: 0.25s linear;
+    padding: 30px;
+}
+
+.pictures .picture:hover{
+    box-shadow: 10px 10px 30px 20px #F5F5F5;
+    border: white;
+    transform: scale(1.1);
+}
+
+.pictures .ptext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #243A73;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    
+}
+
+.pictures .ptext h2{
+    padding: 20px;
+}
+
+.pictures .picture img{
+    width: 25%;
+}
+
+/* Search. Enormous. Easy. Recognize. Choose. */
+
+.scontainer{
+    display: flex;
+    width: 1500px;
+    margin: 0 auto;
+}
+
+.scontainer .stext{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.scontainer .stext h2{
+    font-weight: 700;
+    font-size: 40px;
+    color: #243A73;
+    font-family: 'Poppins', sans-serif;
+    width: 55%;
+}
+
+.scontainer .stext .want{
+    font-weight: 500;
+    font-size: 24px;
+    color: #243A73;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 10px;
+    width: 55%;
+}
+
+.scontainer .stext .al-driven{
+    font-weight: 400;
+    font-size: 18px;
+    color:#343434;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 45px;
+    width: 63%;
+}
+
