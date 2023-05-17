@@ -99,7 +99,7 @@ body{
 .bigtext{
     display: flex;
     justify-content: space-between;
-    padding: 150px;
+    /* padding: 150px; */
 }
 
 .bigtext .blocks{
@@ -212,7 +212,7 @@ body{
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 20px 40px;
-    margin-bottom: 20vh;
+    padding-bottom: 130px;
 }
 
 .pictures .picture{
@@ -650,12 +650,250 @@ body{
 
 .text-step .crown{
     position: absolute;
-    top: 3475px;
+    left: -5px;
+    top: -30px;
 }
 
 .text-step .star{
     position: absolute;
-    left: 840px;
-    top: 3489px;
+    left: 420px;
+    top: -30px;
 
+}
+
+/* Ingenious Sign-up: Smart Technology */
+
+.container-fat{
+    padding-top: 130px;
+}
+
+.icontainer{
+    display: flex;
+    margin: 0 auto;
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    overflow-x: hidden;
+}
+
+.icontainer .itext{
+    display: flex;
+    justify-content: center;
+    padding: 56px 80px;
+    flex-direction: column;
+
+}
+
+.icontainer .itext h2{
+    /* padding-left: 80px; */
+    font-weight: 700;
+    font-size: 40px;
+    color: #243A73;
+    font-family: 'Poppins', sans-serif;
+}
+
+.icontainer .itext .al-driven{
+    font-weight: 400;
+    font-size: 15px;
+    color:#343434;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 45px;
+    /* width: 45%; */
+}
+
+.galochki{
+    font-weight: 400;
+    font-size: 15px;
+    color:#343434;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 45px;
+}
+
+.galochki p{
+    padding: 20px 40px;
+    position: relative;
+}
+
+.galochki img{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: -4px;
+
+}
+
+.icontainer .photo{
+     padding-right: 112px;
+}
+
+.itext .bottoms{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 42px;
+}
+
+#bottom2 .white{
+    font-family: 'Poppins', sans-serif;
+    /* background-color: #243A73; */
+    color: #0E538C;
+    border-radius: 6px;
+    background-color: white;
+    border: 1px solid #0E538C;
+    padding: 15px 50px;
+    font-weight: 400;
+    transition: 0.4s;
+}
+
+.bottoms #bottom2 .white:hover{
+    background-color: #5A38FD;
+    color: white;
+    transition: 0.2s;
+}
+
+/* Smart. Strategy. Sustainability. Support. Success. */
+
+.container-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-text h2{
+    font-weight: 700;
+    font-size: 40px;
+    color: #243A73;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-text p{
+    font-weight: 400;
+    font-size: 15px;
+    color:#343434;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 25px;
+}
+
+.tpicture{
+    width: 100%;
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-around;
+}
+
+.tpicture .cart{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid #10005e27;
+    background-color: white;
+    transition: 0.25s linear;
+    padding: 30px;
+}
+
+.tpicture .cart:hover{
+    box-shadow: 10px 10px 30px 20px #F5F5F5;
+    border: white;
+    transform: scale(1.1);
+}
+
+/* .tpicture .cart img{
+    width: 100%;
+} */
+
+.tpicture .cart h2{
+    font-weight: 600;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    color: #243A73;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.tpicture .cart p{
+    font-weight: 400;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.49);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.tpicture .cart img{
+    width: 20%;
+}
+
+.end{
+    font-weight: 400;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    color: #0E538C;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-top: 60px;
+}
+
+/* Relationship. Interaction. Support. Profit. Growth */
+
+.rcontainer{
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.rtext{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    font-size: 20px;
+    color: #243A73;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+}
+
+.rtext h2{
+    width: 50%;
+    font-weight: 700;
+    font-size: 40px;
+    color: #243A73;
+    font-family: 'Poppins', sans-serif;
+}
+
+.rtext .grey{
+    width: 40%;
+}
+
+.rbottom{
+    width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: #243A73;
+    color: white;
+    border-radius: 6px;
+    font-weight: 400;
+    transition: 0.4s;
+}
+
+.rbottom:hover{
+    background-color: #5A38FD;
+    color: #10005e;
+    transition: 0.2s;
+}
+
+.photo .num1{
+    position: absolute;
+}
+
+.photo .num2{
+    position: absolute;
+    right: 300px;
 }
