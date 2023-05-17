@@ -223,7 +223,7 @@ button.get:hover{
     box-shadow: 10px 10px 30px 20px #F5F5F5;
     border-radius: 20px;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
     /* position: relative; */
@@ -238,6 +238,7 @@ button.get:hover{
     color: #010F52;
     text-align: left;
     padding-bottom: 25px;
+    /* width: 20re m; */
     /* position: absolute;
     right: 0px; */
 }
@@ -380,5 +381,21 @@ button.get:hover{
     padding-bottom: 110px;
 }
 .section-touch{
-    padding-top: 700px;
+    /* padding-top: 700px; */
+}
+.title-img h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.section-touch{
+    background: url(/assets/imgs/smart/pngwing\ 1.svg) #243A73;
+    height: 1023px;
+    /* margin-top: 650px; */
+    margin-top: 680px;
+    /* background-image: url(/assets/imgs/smart/pngwing\ 1.svg); */
 }
