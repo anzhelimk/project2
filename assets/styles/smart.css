@@ -430,7 +430,7 @@ button.get:hover{
 }
 .section-touch{
     background: url(/assets/imgs/smart/pngwing\ 1.svg) #243A73;
-    height: 1023px;
+    /* height: 1023px; */
     /* margin-top: 650px; */
     margin-top: 680px;
     /* padding-bottom: 111px; */
@@ -484,6 +484,21 @@ button.get:hover{
     text-align: left;
     padding-left: 28px;
     margin: 0;
+    transition: all ease 0.3s;
+    border: none;
+    cursor: pointer;
+}
+textarea{
+    resize: none;
+}
+textarea::placeholder{
+    padding-top: 75px;
+}
+#but-3:hover{
+    background: #131e3b00;
+    color: white;
+    transition: all ease 0.3s;
+    border: 2px solid white;
 }
 #pl-1, #pl-2{
     width: 346px;
@@ -494,13 +509,15 @@ button.get:hover{
 #pl-3{
     height: 208px;
 }
-
-.footers{
-    /* width: 1737px; */
-    height: 379px;
+.footer{
     background: url("../imgs/rfq/Background.svg"), #243A73;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.footers{
+    width: 1737px;
+    height: 379px;
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -555,12 +572,14 @@ button.get:hover{
     color: #FFFFFF;
     text-decoration: none;
     cursor: pointer;
+    padding-bottom: 10px;
 }
-.acc, .res, .comm{
-    display: flex;
+.acc, .res, .comm a{
+    /* display: flex;
     /* align-items: center; */
-    justify-content: center;
-    flex-direction: column;
+    /* justify-content: center; */
+    /* flex-direction: column;  */
+    /* margin-bottom: 10px; */
 }
 .social{
     padding-top: 25px;
