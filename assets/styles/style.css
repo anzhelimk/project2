@@ -340,6 +340,7 @@ body{
     justify-content: center;
     align-items: center;
     transition: 0.4s;
+    cursor: pointer;
 }
 
 .scontainer .rectangle:hover{
@@ -421,6 +422,7 @@ body{
     justify-content: center;
     align-items: center;
     transition: 0.3s;
+    cursor: pointer;
 }
 
 .search .two:hover{
@@ -531,15 +533,15 @@ body{
 
 .smart-rfq .three_line{
     position: absolute;
-    bottom: 297px;
-    right: 350px;
+    bottom: 317px;
+    right: 330px;
     
 }
 
 .smart-rfq .star_big{
     position: absolute;
-    bottom: 240px;
-    right: 20px;
+    bottom: 270px;
+    right: -10px;
 }
 
 .smart-rfq .star_small{
@@ -586,6 +588,7 @@ body{
     padding: 15px 50px;
     font-weight: 400;
     transition: 0.4s;
+    cursor: pointer;
 }
 
 .bottom-rfq .white:hover{
@@ -601,6 +604,7 @@ body{
     font-size: 18px;
     padding: 15px 50px;
     transition: 0.4s;
+    cursor: pointer;
 }
 
 .bottom-rfq .readmore:hover{
@@ -636,6 +640,7 @@ body{
     padding: 15px 50px;
     font-weight: 400;
     transition: 0.4s;
+    cursor: pointer;
 }
 
 .bottom-step .white:hover{
@@ -881,6 +886,7 @@ body{
     border-radius: 6px;
     font-weight: 400;
     transition: 0.4s;
+    cursor: pointer;
 }
 
 .rbottom:hover{
